@@ -1,1 +1,18 @@
-console.log("Hola Inmundo");
+var hero = {
+    name:'Chapulin',
+    weapon: 'Chipote chillon',
+    hair: 'Antenas',
+    
+    iam: function(){
+        return "soy el " + this.name + " mi arma es un " + this.weapon + " y uso mis antenas " + this.hair
+    }
+}
+
+console.log(hero.name);
+console.log(hero.weapon);
+console.log(hero.hair);
+
+console.log(hero.iam ());
+
+
+

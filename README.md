@@ -15,16 +15,18 @@ Otros elementos en javascript muy utilizado, pero no son primitivos, ya que tien
 - Objetos
 
 
-Ejemplos
+ Ejemplos:
 
 ``` Javascript
 var arr = []
 var obj = {}
 ```
 
-Los arreglos se declaran utilizando `[]` los objetivos se declaran `{}`
+ Los arreglos se declaran utilizando `[]` los objetivos se declaran `{}`.
 
-Los arreglos tienen sus elementos ordenados por índices, en cambio los onjetos no tienen índices. Sus elementos se rescatan u objetos mediante **llaves**. ejemplos
+ Los arreglos tienen sus elementos ordenados por índices, en cambio los onjetos no tienen índices. Sus elementos se rescatan u objetos mediante **llaves**. 
+
+ Ejemplos:
 
 ```javascript
 var hero= {
@@ -36,5 +38,13 @@ var hero= {
 console.log(hero["name"])
 console.log(hero["weapon"])
 console.log(hero["hair"])
- ```
+```
+ 
+```javascript
+console.log(hero.name)
+console.log(hero.weapon)
+console.log(hero.hair)
+```
+
+
 
