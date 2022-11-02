@@ -22,4 +22,5 @@ function Pokemon(name, id, height, hp, defense, attackPoints) {
 let pikachu = new Pokemon('Pikachu', 25, 4, 35, 40, 55)
 let charmander = new Pokemon('Charmender', 4, 6, 39, 52, 43)
 
- pikachu.attack(charmander)
+pikachu.attack(charmander)
+charmander.attack(pikachu)
